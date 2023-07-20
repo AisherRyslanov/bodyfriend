@@ -1,0 +1,147 @@
+.mode{
+  position: relative;
+  margin: -10px 0 -10px;
+  &__wom{
+    width: 100%;
+  }
+  &__alt{
+    width: 100%;
+    display: none;
+  }
+  &__title{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    font-size: 70px;
+    color: #cdb6a7;
+  }
+  &__p{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    color: #F6F7F8;
+    font-size: 25px;
+    width: 1100px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+  .mode__title {
+    left: 255px;
+  }
+    .mode__p {
+      left: 64px;
+    }
+}
+@media (max-width: 1140px) {
+  .mode__title {
+    left: 235px;
+  }
+  .mode__p {
+    left: 13px;
+  }
+}
+@media (max-width: 1024px) {
+  .mode__title {
+    left: 155px;
+  }
+  .mode__p {
+    left: 38px;
+    font-size: 20px;
+    width: 933px;
+  }
+}
+@media (max-width: 992px) {
+  .mode__title {
+    left: 185px;
+    font-size: 60px;
+  }
+
+}
+@media (max-width: 768px) {
+  .mode__title {
+    left: 162px;
+    font-size: 45px;
+  }
+  .mode__p {
+    left: 38px;
+    font-size: 15px;
+    width: 660px;
+    top: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .mode__wom{
+    display: none;
+  }
+  .mode__alt{
+    display: block;
+  }
+  .mode__title {
+    left: 139px;
+    width: 287px;
+    font-size: 53px;
+    top: 10px;
+    text-align: center;
+  }
+  .mode__p {
+    left: 31px;
+    font-size: 25px;
+    width: 467px;
+    top: 157px;
+  }
+}
+@media (max-width: 451px) {
+  .mode__title {
+    left: 70px;
+    font-size: 45px;
+    top: 10px;
+  }
+  .mode__p {
+    left: 38px;
+    font-size: 23px;
+    width: 360px;
+    top: 125px;
+  }
+}
+@media (max-width: 400px) {
+  .mode__title {
+    left: 50px;
+    font-size: 45px;
+    top: 10px;
+  }
+  .mode__p {
+    left: 20px;
+    font-size: 23px;
+    width: 360px;
+    top: 127px;
+  }
+}
+@media (max-width: 380px) {
+  .mode__p {
+    left: 10px;
+    font-size: 23px;
+    width: 360px;
+    top: 127px;
+  }
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 320px) {
+  .mode__title {
+    left: 17px;
+    font-size: 45px;
+    top: 10px;
+  }
+  .mode__p {
+    left: 0;
+    font-size: 18px;
+    width: 306px;
+    top: 127px;
+  }
+}

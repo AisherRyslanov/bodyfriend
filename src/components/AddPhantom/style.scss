@@ -1,0 +1,361 @@
+.AddPhantom {
+  position: relative;
+  margin: -5px 0 -5px;
+  //.slider,
+  //.slider2 {
+  //  width: 100%;
+  //  height: 400px; /* Регулируйте размеры здесь */
+  //  object-fit: cover; /* Чтобы изображение заполнило контейнер */
+  //}
+  &__img {
+  width: 100%;
+  }
+  &__alt{
+    width: 100%;
+    display: none;
+  }
+  &__mass{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    color: #F6F7F8;
+    width: 200px;
+    text-align: right;
+  }
+  &__future{
+    position: absolute;
+    top: 60px;
+    color: #F6F7F8;
+    left: 1250px;
+    width: 100px;
+    text-align: left;
+  }
+  &__price{
+    position: absolute;
+    top: 620px;
+    font-size: 50px;
+    color: #ffd3d3;
+    left: 1030px;
+  }
+  &__toc{
+    position: absolute;
+    top: 710px;
+    font-size: 20px;
+    color: #F6F7F8;
+    background: inherit;
+    border: none;
+    left: 1065px;
+    cursor: pointer;
+  }
+  &__buy{
+    position: absolute;
+    top: 765px;
+    font-size: 20px;
+    color: #cdb6a7;
+    background: inherit;
+    border: none;
+    left: 1025px;
+    cursor: pointer;
+  }
+  /* Дополните стили по вашему усмотрению */
+  //.slider-container {
+  //  display: flex;
+  //  flex-direction: column;
+  //  align-items: center;
+  //}
+
+  .main-image img {
+    width: 300px;
+    height: auto;
+  }
+  //.main-image img,
+  //.main-image .slick-slide img,
+  //.nav-thumbnails img,
+  //.nav-thumbnails .slick-slide img {
+  //  width: 300px;
+  //  height: auto;
+  //}
+
+
+  //.thumbnails {
+  //  display: flex;
+  //  margin-top: 20px;
+  //}
+
+  //.thumbnail {
+  //  cursor: pointer;
+  //  margin: 0 10px;
+  //  opacity: 0.5;
+  //}
+
+  //.thumbnail.active {
+  //  opacity: 1;
+  //}
+  //
+  //.arrows {
+  //  margin-top: 20px;
+  //}
+
+  //.arrow {
+  //  cursor: pointer;
+  //  font-size: 24px;
+  //  margin: 0 10px;
+  //}
+  //
+  //.left {
+  //  transform: rotate(180deg);
+  //}
+
+}
+
+@media (max-width: 1440px) {
+  .AddPhantom__future {
+    top: 53px;
+    left: 1180px;
+  }
+  .AddPhantom__mass {
+    top: 60px;
+    left: 95px;
+  }
+  .AddPhantom__price {
+    top: 570px;
+    left: 926px;
+  }
+  .AddPhantom__toc {
+    top: 655px;
+    left: 960px;
+  }
+  .AddPhantom__buy {
+    top: 705px;
+    left: 925px;
+  }
+}
+@media (max-width: 1200px) {
+  .AddPhantom__mass {
+    top: 45px;
+    left: 50px;
+  }
+  .AddPhantom__future {
+    top: 35px;
+    left: 950px;
+  }
+  .AddPhantom__price {
+    top: 475px;
+    left: 777px;
+  }
+  .AddPhantom__toc {
+    top: 555px;
+    left: 820px;
+  }
+  .AddPhantom__buy {
+    top: 605px;
+    left: 785px;
+  }
+}
+@media (max-width: 1140px) {
+  .AddPhantom__price {
+    top: 455px;
+    left: 723px;
+  }
+  .AddPhantom__toc {
+    top: 530px;
+    left: 770px;
+  }
+  .AddPhantom__buy {
+    top: 570px;
+    left: 735px;
+  }
+}
+@media (max-width: 1024px) {
+  .AddPhantom__mass {
+    top: 30px;
+    left: 10px;
+  }
+  .AddPhantom__future {
+    top: 15px;
+    left: 815px;
+  }
+  .AddPhantom__price {
+    top: 400px;
+    left: 625px;
+  }
+  .AddPhantom__toc {
+    top: 471px;
+    left: 705px;
+  }
+  .AddPhantom__buy {
+    top: 510px;
+    left: 645px;
+  }
+}
+@media (max-width: 992px) {
+  .AddPhantom__price {
+    top: 390px;
+    left: 600px;
+  }
+  .AddPhantom__toc {
+    top: 458px;
+    left: 675px;
+  }
+  .AddPhantom__buy {
+    top: 494px;
+    left: 630px;
+  }
+}
+@media (max-width: 768px) {
+  .AddPhantom__mass {
+    top: 30px;
+    left: -50px;
+    font-size: 19px;
+  }
+  .AddPhantom__future {
+    top: 15px;
+    left: 613px;
+    font-size: 21px;
+  }
+  .AddPhantom__price {
+    top: 310px;
+    left: 500px;
+    font-size: 29px;
+  }
+  .AddPhantom__toc {
+    top: 352px;
+    left: 500px;
+  }
+  .AddPhantom__buy {
+    top: 379px;
+    left: 455px;
+  }
+}
+@media (max-width: 576px) {
+  .AddPhantom__alt{
+    display: block;
+  }
+  .AddPhantom__img{
+    display: none;
+  }
+  .AddPhantom__altDel{
+    display: none;
+  }
+  .AddPhantom__mass {
+    top: 17px;
+    left: -73px;
+    font-size: 19px;
+  }
+  .AddPhantom__future {
+    top: 15px;
+    left: 450px;
+    font-size: 20px;
+  }
+  .AddPhantom__price {
+    top: 1543px;
+    left: 177px;
+    font-size: 36px;
+  }
+  .AddPhantom__toc {
+    top: 1615px;
+    left: 195px;
+    font-size: 25px;
+  }
+  .AddPhantom__buy {
+    top: 1671px;
+    left: 140px;
+    font-size: 25px;
+  }
+}
+@media (max-width: 451px) {
+  .AddPhantom__mass {
+    top: 20px;
+    left: 5px;
+    font-size: 8px;
+    width: 83px;
+  }
+  .AddPhantom__future {
+    top: 18px;
+    left: 349px;
+    font-size: 9px;
+  }
+  .AddPhantom__price {
+    top: 1205px;
+    left: 103px;
+    font-size: 40px;
+  }
+  .AddPhantom__toc {
+    top: 1265px;
+    left: 155px;
+    font-size: 19px;
+  }
+  .AddPhantom__buy {
+    top: 1308px;
+    left: 115px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .AddPhantom__price {
+    top: 1067px;
+    left: 103px;
+    font-size: 35px;
+  }
+  .AddPhantom__toc {
+    top: 1122px;
+    left: 113px;
+    font-size: 22px;
+  }
+  .AddPhantom__buy {
+    top: 1159px;
+    left: 86px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 380px) {
+  .AddPhantom__price {
+    top: 1014px;
+    left: 95px;
+    font-size: 35px;
+  }
+  .AddPhantom__toc {
+    top: 1064px;
+    left: 113px;
+    font-size: 22px;
+  }
+  .AddPhantom__buy {
+    top: 1100px;
+    left: 86px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 375px) {
+  .AddPhantom__price {
+    top: 1004px;
+    left: 92px;
+    font-size: 35px;
+  }
+  .AddPhantom__toc {
+    top: 1045px;
+    left: 106px;
+    font-size: 22px;
+  }
+  .AddPhantom__buy {
+    top: 1087px;
+    left: 86px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 320px) {
+  .AddPhantom__price {
+    top: 846px;
+    left: 50px;
+    font-size: 35px;
+  }
+  .AddPhantom__toc {
+    top: 894px;
+    left: 68px;
+    font-size: 20px;
+  }
+  .AddPhantom__buy {
+    top: 924px;
+    left: 50px;
+    font-size: 16px;
+  }
+}

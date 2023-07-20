@@ -1,0 +1,148 @@
+.ready{
+  background: black;
+  height: 900px;
+
+  &__title{
+    color: #e9b957;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px 0 0 ;
+  }
+  &__p{
+    color: #F6F7F8;
+    text-align: center;
+    width: 1230px;
+    margin-left: 150px;
+    font-size: 20px;
+  }
+  &__img{
+    margin-left: 299px;
+    margin-top: 50px;
+    width: 900px;
+  }
+}
+
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+  .ready__p {
+    color: #F6F7F8;
+    text-align: center;
+    width: 1111px;
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  .ready__img {
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 900px;
+  }
+}
+@media (max-width: 1140px) {
+  .ready__title {
+    font-size: 65px;
+  }
+  .ready__p {
+    width: 1075px;
+  }
+}
+@media (max-width: 1024px) {
+  .ready__p {
+    width: 900px;
+  }
+  .ready__title {
+    font-size: 50px;
+  }
+  .ready__img {
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 900px;
+  }
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+  .ready__title {
+    font-size: 35px;
+  }
+  .ready__p {
+    width: 685px;
+  }
+  .ready__img {
+    margin-left: 35px;
+    width: 685px;
+  }
+}
+@media (max-width: 576px) {
+  .ready__title {
+    font-size: 26px;
+  }
+  .ready__p {
+    width: 485px;
+  }
+  .ready__img {
+    margin-left: 35px;
+    width: 510px;
+  }
+  .harac__title {
+    font-size: 50px;
+    margin-left: -57px;
+  }
+}
+@media (max-width: 451px) {
+  .ready__title {
+    font-size: 23px;
+  }
+  .ready__p {
+    width: 340px;
+    margin-left: 58px;
+  }
+  .ready__img {
+    margin-left: 28px;
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+.ready__p {
+  width: 340px;
+  margin-left: 30px;
+  padding: 24px 0 0;
+}
+  .ready__img {
+    margin-left: 20px;
+    width: 351px;
+  }
+}
+@media (max-width: 380px) {
+  .ready__p {
+    width: 340px;
+    margin-left: 22px;
+    padding: 25px 0 0;
+  }
+  .ready__img {
+    margin-left: 15px;
+    width: 351px;
+  }
+}
+@media (max-width: 375px) {
+  .ready__img {
+    margin-left: 12px;
+    width: 345px;
+  }
+}
+@media (max-width: 320px) {
+  .ready__title {
+    font-size: 20px;
+  }
+  .ready__p {
+    width: 320px;
+    margin-left: -6px;
+    padding: 15px 0 0;
+  }
+  .ready__img {
+    margin-left: 15px;
+    width: 280px;
+  }
+}
